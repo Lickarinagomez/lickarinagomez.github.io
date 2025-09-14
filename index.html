@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi página gratis</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuropsicología Deportiva | Dra. [Nombre de tu tía]</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hola, mundo</h1>
-  <p>Mi primera página con GitHub Pages 🚀</p>
+    <header>
+        <nav>
+            <h1>Neuropsicología Deportiva</h1>
+            <ul>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#sobre">Sobre mí</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <!-- Cambia 'hero.jpg' por el nombre de tu imagen principal -->
+            <img src="images/hero.jpg" alt="Neuropsicología Deportiva">
+            <div class="hero-text">
+                <h2>Potencia tu mente, mejora tu rendimiento</h2>
+                <p>Atención personalizada en neuropsicología orientada al deporte. Superá tus límites mentales y alcanzá tu máximo potencial.</p>
+            </div>
+        </section>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="servicios-lista">
+                <div class="servicio">
+                    <!-- Cambia 'evaluacion.jpg' por tu imagen de servicio -->
+                    <img src="images/evaluacion.jpg" alt="Evaluación neuropsicológica">
+                    <h3>Evaluación neuropsicológica</h3>
+                    <p>Diagnóstico y análisis de funciones cognitivas para deportistas.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/intervencion.jpg" alt="Intervención y entrenamiento">
+                    <h3>Intervención y entrenamiento</h3>
+                    <p>Plan personalizado para mejorar concentración, manejo del estrés y toma de decisiones.</p>
+                </div>
+                <div class="servicio">
+                    <img src="images/talleres.jpg" alt="Talleres y charlas">
+                    <h3>Talleres y charlas</h3>
+                    <p>Formación y capacitación para equipos deportivos y profesionales.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sobre">
+            <h2>Sobre mí</h2>
+            <div class="sobre-content">
+                <!-- Cambia 'tia.jpg' por la foto de tu tía -->
+                <img src="images/tia.jpg" alt="Dra. [Nombre de tu tía]">
+                <div>
+                    <h3>Dra. [Nombre de tu tía]</h3>
+                    <p>Especialista en neuropsicología deportiva con más de 10 años de experiencia ayudando a deportistas a superar desafíos mentales y alcanzar sus metas.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Neuropsicología Deportiva | Dra. [Nombre de tu tía]</p>
+    </footer>
 </body>
 </html>
